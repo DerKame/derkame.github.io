@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(47, 47, 47);
+    font-family: 'Alice', serif;
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    padding: 0.5% 2%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar img {
+    width: 10vw;
+    height: 5vh;
+}
+
+.navbar div {
+    width: auto;
+}
+
+.navbar div a {
+    color: white;
+    font-size: 28px;
+    margin-left: 38px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: overline;
+    color: gold;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 80%;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1%;
+}
+
+.image-container {
+    display: block;
+}
+
+.image-container div {
+    display: flex;
+    justify-content: center;
+    margin: 0.5% 0;
+
+}
+
+.page img {
+    display: flex;
+    justify-content: center;
+    width: 16%;
+    margin: 0 2%;
+    border-radius: 2%;
+}
