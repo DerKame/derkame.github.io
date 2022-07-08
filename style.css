@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+
+:root {
+    --highlight-color: #FBD057;
+    --text-color: #ffffff;
+    --background-color: #222222;
+    --background-color-dark: #1d1d1d;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    color: var(--text-color);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: var(--background-color-dark);
+}
+
+.logo-img {
+    max-width: 5%;
+    min-width: 5%;
+}
+
+.navbar img {
+    max-width: 5%;
+    min-width: 5%;
+    margin: 1%;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar img:hover {
+    transform: scale(1.15);
+}
+
+.navbar a {
+    font-family: 'Splash', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.a1-highlight {
+    max-width: 50%;
+    margin-bottom: 4%;
+}
+
+iframe {
+    min-width: 100%;
+    height: 400px;
+}
+
+.iframe {
+    width: 25%;
+    position: absolute;
+    top: 18%;
+    left: 65%;
+}
+
+.a1-highlight a {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 0.5%;
+}
+
+p {
+    max-width: 60%;
+    min-width: 30%;
+}
+
+.strawberry-drinks,
+.cheers-event {
+    margin: 1% 0% 2.5% 0%;
+    width: 20%;
+    border-radius: 5%;
+}
+
+.smp-highlight {
+    font-weight: bolder;
+    color: var(--highlight-color)
+}
+
+.cheers-event {
+    width: 25%;
+}
